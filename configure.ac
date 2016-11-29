@@ -1,0 +1,24 @@
+AC_INIT([clock-plugin-dbus], [0.0.1])
+AC_CANONICAL_SYSTEM
+
+AM_CONFIG_HEADER(config.h)
+AC_CONFIG_SRCDIR([src/clock-plugin-dbus.h])
+
+AM_MAINTAINER_MODE
+
+AM_INIT_AUTOMAKE
+
+AC_PROG_INSTALL
+AM_PROG_LIBTOOL
+
+AC_HEADER_STDC
+
+AC_PATH_X
+AC_PATH_XTRA
+AC_SUBST(X_CFLAGS)
+
+AC_OUTPUT([
+	Makefile
+	src/Makefile
+	src/statusbar-alarm.pc
+])

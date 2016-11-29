@@ -1,0 +1,13 @@
+Source: statusbar-alarm-dbus-api
+Priority: optional
+Maintainer: Ouyang Qi <qi.ouyang@nokia.com>
+Build-Depends: debhelper (>= 4)
+Standards-Version: 3.7.2
+Section: x11
+
+Package: statusbar-alarm-dev
+Section: devel
+Architecture: any
+Depends: pkg-config
+Description: Status Area plugin for Clock & Alarms - development headers.
+ Plugin showing current time and indicating if there is any alarm set.
