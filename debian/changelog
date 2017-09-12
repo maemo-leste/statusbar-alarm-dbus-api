@@ -1,3 +1,9 @@
+statusbar-alarm-dbus-api (0.5.10-1) unstable; urgency=medium
+
+  * enable git builds
+
+ -- Ivan J. <parazyd@dyne.org>  Tue, 12 Sep 2017 23:01:00 +0200
+
 statusbar-alarm-dbus-api (0.5.10-1+0m5) unstable; urgency=low
 
   * This entry has been added by BIFH queue processor
