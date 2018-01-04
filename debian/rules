@@ -84,7 +84,7 @@ binary-arch: build install
 	dh_installdocs
 	dh_install
 	dh_link
-	dh_strip --dbg-package=statusbar-alarm
+	dh_strip
 	dh_compress
 	dh_fixperms
 	dh_makeshlibs -V

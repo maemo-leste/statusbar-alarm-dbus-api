@@ -1,7 +1,7 @@
 Source: statusbar-alarm-dbus-api
 Priority: optional
 Maintainer: Ouyang Qi <qi.ouyang@nokia.com>
-Build-Depends: debhelper (>= 4), autoconf, automake, libtool
+Build-Depends: debhelper (>= 9.20160114), autoconf, automake, libtool
 Standards-Version: 3.7.2
 Section: x11
 
