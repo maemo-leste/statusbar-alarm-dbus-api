@@ -1,3 +1,9 @@
+statusbar-alarm-dbus-api (0.5.11-1) unstable; urgency=medium
+
+  * Port to dh 10
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 27 Jul 2019 13:17:43 +0200
+
 statusbar-alarm-dbus-api (0.5.10-1) unstable; urgency=medium
 
   * enable git builds
